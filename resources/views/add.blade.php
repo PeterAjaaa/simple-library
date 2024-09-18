@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite(['resources/sass/app.scss'])
-    <title>Simple Library: Add New Book</title>
-</head>
-
+@extends('layouts.app')
+@section('content')
 <body>
     <div class="container pt-5">
         <div class="row">
@@ -68,5 +59,4 @@
         </div>
     </div>
 </body>
-
-</html>
+@endsection
